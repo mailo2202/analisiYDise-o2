@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col">
                     <img class="imgBanner" src="images/banner.png">
@@ -16,19 +16,24 @@
             </div>
             <ul class="nav">
                 <li class="nav-item">
-                  <p class="nav-link" onclick="createMap()">Paises</p>
+                  <p class="nav-link" onclick="rechargeCityes()">Paises</p>
                 </li>
                 <li class="nav-item">
-                  <p class="nav-link" href="#">Link</p>
-                </li>
+                  <p class="nav-link" onclick="printInfoWorld()">informacion mundial</p>
+                </li>                
                 <li class="nav-item">
-                  <p class="nav-link" href="#">Link</p>
+                  <p  id="infoCity" class="nav-link disabled" onclick="rechargeCity()">Informacion del pais</p>
                 </li>
-                <li class="nav-item">
-                  <p class="nav-link disabled" href="#">Informacion del pais</p>
-                </li>
+                <!--<li class="d-flex">
+                    <p>Buscar</p>
+                    <div  class="search">
+                        <input id="search" type="text" onkeyup="search()">
+                    </div>
+                </li>-->
               </ul>
+              
         </div>
+        
     </header>
     <main>        
         <div class="container">

@@ -2,6 +2,12 @@
     width: 100%;
     height: 200px;
 }
-.cardBody{
+.cardBody,
+.mouse,
+.nav-item{
     cursor: pointer;
+}
+
+.center{
+    text-align: center;
 }
